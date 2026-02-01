@@ -19,9 +19,9 @@
 The KXPA100 Remote Control system enables wireless control of an Elecraft KXPA100 HF amplifier through an ICOM IC-705 transceiver. The system runs on an M5Stack ESP32 device and implements a dual-core architecture for responsive UI and reliable communication.
 
 ![Alt Text Description](Pictures/IMG_1231.jpg)
-![Alt Text Description](Picture/IMG_1230.jpg)
-![Alt Text Description](Picture/IMG_1229.jpg)
-![Alt Text Description](Picture/IMG_1228.jpg)
+![Alt Text Description](Pictures/IMG_1230.jpg)
+![Alt Text Description](Pictures/IMG_1229.jpg)
+![Alt Text Description](Pictures/IMG_1228.jpg)
 
 ### Key Features
 - **Dual-Core Architecture**: Separate cores for UI (Core 1) and backend communication (Core 0)
