@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2025 René Mederlet, HB9HGW
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+AMATEUR RADIO NOTICE:
+This software is designed for use by licensed amateur radio operators.
+Users are responsible for ensuring compliance with their local amateur radio
+regulations and licensing requirements.
+
+HARDWARE COMPATIBILITY:
+This software is designed for use with:
+- M5Stack ESP32 devices
+- Elecraft KXPA100 HF Amplifier
+- ICOM IC-705 Transceiver (via CAT interface)
+
+The authors are not affiliated with Elecraft or ICOM. All trademarks are
+property of their respective owners.
