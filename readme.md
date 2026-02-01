@@ -18,10 +18,10 @@
 
 The KXPA100 Remote Control system enables wireless control of an Elecraft KXPA100 HF amplifier through an ICOM IC-705 transceiver. The system runs on an M5Stack ESP32 device and implements a dual-core architecture for responsive UI and reliable communication.
 
-![Alt Text Description](Pictures/IMG_1231.jpg)
-![Alt Text Description](Pictures/IMG_1230.jpg)
-![Alt Text Description](Pictures/IMG_1229.jpg)
-![Alt Text Description](Pictures/IMG_1228.jpg)
+![Alt Text Description](IMG_1231.jpg)
+![Alt Text Description](IMG_1230.jpg)
+![Alt Text Description](IMG_1229.jpg)
+![Alt Text Description](IMG_1228.jpg)
 
 ### Key Features
 - **Dual-Core Architecture**: Separate cores for UI (Core 1) and backend communication (Core 0)
@@ -95,15 +95,15 @@ The KXPA100 Remote Control system enables wireless control of an Elecraft KXPA10
               ▼                                       ▼
    ┌──────────────────────┐                ┌──────────────────────┐
    │  KXPA100 Amplifier   │                │     WiFi Router      │
-   │  - Band Selection    │                │    192.168.188.33     │
+   │  - Band Selection    │                │    xxx.xxx.xxx.xxx   │
    │  - Status Reporting  │                │                      │
    │  - Fault Monitoring  │                └──────────┬───────────┘
    └──────────────────────┘                           │
                                                       ▼
                                            ┌──────────────────────┐
                                            │      CAT Server      │
-                                           │    rigctld:2020      │
-                                           │    192.168.188.33    │
+                                           │    rigctld:xxxx      │
+                                           │    xxx.xxx.xxx.xxx   │
                                            └──────────┬───────────┘
                                                       │
                                                       ▼
@@ -263,7 +263,7 @@ IC-705 (Frequency Change)
     │
     ▼
 CAT Server (rigctld)
-    │ TCP Port 2020
+    │ TCP Port xxxx
     ▼
 CatWifiClient.sendCommand("f\n")
     │
@@ -509,8 +509,8 @@ String txRx(const char* cmd) {
 #### Connection Parameters
 ```cpp
 Protocol:    TCP
-Server:      192.168.188.33
-Port:        2020
+Server:      xxx.xxx.xxx.xxx
+Port:        xxxx
 Timeout:     10000ms
 Mode:        WiFi Station (STA)
 Reconnect:   Exponential backoff (500ms to 30s)
