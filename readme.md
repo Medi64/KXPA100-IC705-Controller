@@ -770,8 +770,8 @@ const char* ssid = "your-wifi-ssid";
 const char* password = "your-wifi-password";
 
 // CAT Server
-const char* CAT_SERVER = "192.168.188.33";
-const uint16_t RIGCTLD_PORT = 2020;
+const char* CAT_SERVER = "xxx.xxx.xxx.xxx";
+const uint16_t RIGCTLD_PORT = xxxx;
 ```
 
 ---
