@@ -1,4 +1,4 @@
-# KXPA100 Remote Control - Software Architecture
+# KXPA100 Remote Control
 
 ## Table of Contents
 1. [System Overview](#system-overview)
